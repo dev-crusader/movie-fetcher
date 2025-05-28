@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/dev-crusader/go-test-project/models"
-	"github.com/dev-crusader/go-test-project/startup"
+	"github.com/dev-crusader404/go-test-project/models"
+	"github.com/dev-crusader404/go-test-project/startup"
 	"github.com/google/uuid"
 )
 

@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dev-crusader/go-test-project/client"
-	grpsv "github.com/dev-crusader/go-test-project/grpc/server"
-	mv "github.com/dev-crusader/go-test-project/internal"
-	sv "github.com/dev-crusader/go-test-project/restapi"
-	"github.com/dev-crusader/go-test-project/startup"
-	"github.com/dev-crusader/go-test-project/startup/middleware"
+	"github.com/dev-crusader404/go-test-project/client"
+	grpsv "github.com/dev-crusader404/go-test-project/grpc/server"
+	mv "github.com/dev-crusader404/go-test-project/internal"
+	sv "github.com/dev-crusader404/go-test-project/restapi"
+	"github.com/dev-crusader404/go-test-project/startup"
+	"github.com/dev-crusader404/go-test-project/startup/middleware"
 )
 
 var (
