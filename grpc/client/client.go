@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	svhandler "github.com/dev-crusader404/go-test-project/grpc/protogen"
+	svhandler "github.com/dev-crusader/go-test-project/grpc/protogen"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
