@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/dev-crusader/go-test-project/client"
-	props "github.com/dev-crusader/go-test-project/startup"
+	"github.com/dev-crusader/movie-fetcher/client"
+	props "github.com/dev-crusader/movie-fetcher/startup"
 )
 
 type MovieFetcher interface {

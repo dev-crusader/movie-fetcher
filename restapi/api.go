@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	mv "github.com/dev-crusader/go-test-project/internal"
-	ds "github.com/dev-crusader/go-test-project/models"
-	md "github.com/dev-crusader/go-test-project/startup/middleware"
+	mv "github.com/dev-crusader/movie-fetcher/internal"
+	ds "github.com/dev-crusader/movie-fetcher/models"
+	md "github.com/dev-crusader/movie-fetcher/startup/middleware"
 )
 
 type fetcherHandlerFunc func(mv mv.MovieFetcher, w http.ResponseWriter, r *http.Request) error

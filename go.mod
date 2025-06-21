@@ -1,4 +1,4 @@
-module github.com/dev-crusader/go-test-project
+module github.com/dev-crusader/movie-fetcher
 
 go 1.21.8
 

@@ -6,9 +6,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/dev-crusader/go-test-project/client"
-	proto "github.com/dev-crusader/go-test-project/grpc/protogen"
-	mv "github.com/dev-crusader/go-test-project/internal"
+	"github.com/dev-crusader/movie-fetcher/client"
+	proto "github.com/dev-crusader/movie-fetcher/grpc/protogen"
+	mv "github.com/dev-crusader/movie-fetcher/internal"
 	"google.golang.org/grpc"
 )
 
